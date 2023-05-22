@@ -1,0 +1,2 @@
+## About
+This is a minimal addon template for Mavi.as runtime that can be used to extend AngelScript abilities using C++. Please note that project name __addon_name__ must be changed in CMakeLists.txt file.
