@@ -1,4 +1,5 @@
 #include <mavi/core/scripting.h>
+#include <iostream>
 
 void PrintHelloWorld()
 {
@@ -12,7 +13,7 @@ int ViInitialize(Mavi::Scripting::VirtualMachine* VM)
     return 0;
 }
 
-extern "C" { VI_EXPOSE int ViUninitialize(Mavi::Scripting::VirtualMachine*); }
+extern "C" { VI_EXPOSE void ViUninitialize(Mavi::Scripting::VirtualMachine*); }
 void ViUninitialize(Mavi::Scripting::VirtualMachine* VM)
 {
 }
