@@ -1,6 +1,7 @@
 {
     "name": "{{BUILDER_OUTPUT}}",
+    "type": "native",
+    "index": null,
     "runtime": "{{BUILDER_VERSION}}",
-    "version": "1.0.0",
-    "type": "native"
+    "version": "1.0.0"
 }
