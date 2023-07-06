@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.6)
 #Setup Mavi framework
 set(VI_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/deps/mavi CACHE STRING "Mavi directory")
 {{BUILDER_FEATURES}}
+include(${VI_DIRECTORY}/lib/toolchain.cmake)
 
 #Project's metadata
 project({{BUILDER_OUTPUT}})
